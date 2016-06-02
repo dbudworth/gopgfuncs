@@ -2,7 +2,3 @@
 #include "fmgr.h"
 
 PG_MODULE_MAGIC;
-
-void initMacros(){
-
-}

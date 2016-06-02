@@ -7,7 +7,7 @@ PGMOD=$(abspath out/libpgmod.so)
 
 all: $(PGMOD)
 
-$(PGMOD): *.c *.h *.go Makefile
+$(PGMOD): *.c *.go Makefile
 	go build -buildmode=c-shared -o $(PGMOD)
 
 install: $(PGMOD)
